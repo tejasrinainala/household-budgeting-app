@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import AddExpense from '/Users/tejasrinainala/Desktop/household-budget-app/src/components/AddExpense.js';
-import BudgetList from '/Users/tejasrinainala/Desktop/household-budget-app/src/components/BudgetList.js';
-import Summary from '/Users/tejasrinainala/Desktop/household-budget-app/src/components/Summary.js';
-import '/Users/tejasrinainala/Desktop/household-budget-app/src/index.css';
-import 'react-datetime/css/react-datetime.css';
-import Income from '/Users/tejasrinainala/Desktop/household-budget-app/src/components/Income.js';
-import IncomeList from '/Users/tejasrinainala/Desktop/household-budget-app/src/components/IncomeList.js';
+import AddExpense from './AddExpense';
+import BudgetList from './BudgetList';
+import Summary from './Summary';
+import Income from './Income';
+import IncomeList from './IncomeList';
+
+import '../index.css';  
 
 import moment from 'moment';
 
